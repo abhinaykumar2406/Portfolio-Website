@@ -255,6 +255,7 @@ h3.my-profession{
 }
 .social-btn:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 .btn{
     font-size: 16px;
@@ -313,6 +314,7 @@ h3.my-profession{
 }
 .btn:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 /* About */
