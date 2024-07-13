@@ -1,5 +1,5 @@
 var typed = new Typed(".typing",{
-    strings:["Web Developer","Competitive Programmer"],
+    strings:["","Web Developer","Competitive Programmer"],
     typeSpeed:80,
     BackSpeed:20,
     loop:true
@@ -7,18 +7,18 @@ var typed = new Typed(".typing",{
 
 
 const navbar = document.querySelector(".navbar");
+const navLinks = document.querySelectorAll(".nav-link");
 
-// document.querySelectorAll(".nav-link").forEach((ele) =>
-//     ele.addEventListener("click", function (event) {
-//     //   event.preventDefault();
-//       document.querySelectorAll(".nav-link").forEach((ele) => ele.classList.remove("active"));
-//       this.classList.add("active")
-//     })
-// );
+document.querySelectorAll(".nav-link").forEach((ele) =>
+    ele.addEventListener("click", function (event) {
+    //   event.preventDefault();
+      document.querySelectorAll(".nav-link").forEach((ele) => ele.classList.remove("active"));
+      this.classList.add("active")
+    })
+);
 
 // Nav button change on scroll
 let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll(".nav-link");
 
 window.onscroll = () => {
   sections.forEach((sec) => {
