@@ -6,6 +6,7 @@
     --bg-black-50:#e8dfec;
     --text-black-900:#302e48;
     --text-black-700:#504e70;
+    --card-text:#003049;
 }
 *{
     margin:0;
@@ -27,6 +28,7 @@ body.dark{
     --bg-black-50:#393939;
     --text-black-900:#ffffff;
     --text-black-700:#e9e9e9;
+    --card-text:#ffd60a;
 }
 .section{
     background: var(--bg-black-900);
@@ -593,28 +595,28 @@ h3.my-profession{
   .flip-card-back .card-text h2{
     width: 100%;
     font-size: 25px;
-    color: var(--text-black-900);
+    color: var(--card-text);
   }
   .flip-card-back .card-text span{
     width: 100%;
-    font-size: 16px;
-    color: var(--text-black-900);
+    font-size: 20px;
+    color: var(--text-black-700);
   }
   .flip-card-back .project-card-text{
     width: 100%;
     margin: 10px;
-    color: var(--text-black-900);
+    color: var(--skin-color);
   }
 
   .flip-card-back .project-card-text h2{
     width: 100%;
     font-size: 25px;
-    color: var(--text-black-900);
+    color: var(--card-text);
   }
   .flip-card-back .project-card-text span{
     width: 100%;
     font-size: 16px;
-    color: var(--text-black-900);
+    color: var(--text-black-700);
   }
 
 /* flip card end */
